@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>hydrospera</title>
+</head>
+
+<body>
+    <!--------------------------------------side bar ------------------------------------->
+    <!-- <button id="side" class="btn btn-secondary my-3 mx-3" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><svg xmlns="http://www.w3.org/2000/svg"
+            width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg></button>
+
+    <div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title text-light" id="offcanvasScrollingLabel">Exopedia</h3>
+            <button type="button" class="btn-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="list-items">
+            <ul class="text-light">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Explore Exoplanets</a></li>
+                <li><a href="#">Strange new worlds</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </div>
+    </div> -->
+    <nav class="navbar bg-dark text-light" id="nav">
+        <div class="container-fluid">
+          <a style="color: white;" class="navbar-brand" href="index.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbFrsphBvF_U2JGtwT9eGll2--UyP0Bepcqw&usqp=CAU" alt="Logo" width="40" height="40" class="d-inline-block align-text-top mx-2" >
+            NASA Space Apps Challenge
+          </a>
+        </div>
+      </nav>
+   
+
+    <!---------------------------------------- info ---------------->
+
+    <h1 class="text-center my-4 text-light" style="letter-spacing: 8px;">HYDROSPERA</h1>
+    <div class="row featurette container my-5" id="matter">
+        <div class="col-md-7 text-light">
+            <h2 class="featurette-heading fw-normal lh-1">Habitable Zone<span class="text-body-secondary"></span></h2>
+            <p class="lead">The Goldilocks Zone is an astronomical term for the region around a star where planets can
+                host liquid water and possibly support life. The name comes from the idea that planets orbiting at the
+                "just right" distance from a star are not too hot or too cold to host liquid water.<br> Hydrospera
+                exists
+                in the habitable zone.</p>
+        </div>
+        <div class="col-md-5">
+            <video src="resources/habitableZone.mp4" width="400px" autoplay loop muted></video>
+        </div>
+    </div>
+    <hr class="featurette-divider container text-light">
+
+    <div class="row featurette container my-5" id="matter">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1 text-light">Type of star<span
+                    class="text-body-secondary"></span></h2>
+            <p class="lead text-light">Hydrospera revolves around a Rubysol, G-type star. Such a star has about 0.9 to
+                1.1 solar
+                masses and an effective temperature between about 5,300 and 6,000 K. Rubysol is a yellow dwarf with
+                moderate to high luminous. It has a long sequence <br>
+                Lifespan: G-type stars have a relatively long main-sequence lifetime, which means they remain stable and
+                hydrogen-burning for billions of years. Our Sun, for example, is about 4.6 billion years old and has
+                several billion years left in its main-sequence phase.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-c189cf708b75b1b40e10c424d821d548-lq"
+                width="400px" alt="">
+        </div>
+    </div>
+    <hr class="featurette-divider container text-light">
+
+
+    <div class="row featurette container my-5" id="matter">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1 text-light">Transit Period</h2><span
+                class="text-body-secondary"></span>
+            </h2>
+            <p class="lead text-light">The transit period in the context of astronomy refers to the durartion of time it
+                takesfor a celestial object to pass infront of its parent star. This event is known as transit. During
+                transit the object partially blocks teh portion of the star's light causing a temporary dip in the
+                star's brightness. This leads to the transit graph which is a graph between brightness and time. <br>
+                This transit graph is a vital source of information for obserbation of stars through telescope,
+                especially in exoplanets.</p>
+        </div>
+        <div class="col-md-5">
+            <video src="resources/transit.mp4" width="400px" autoplay loop muted alt="">
+        </div>
+    </div>
+    <hr class="featurette-divider container text-light">
+
+    <div class="row featurette container my-5" id="matter">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1 text-light">Habitable conditions satisfied by Hydrospera<span
+                    class="text-body-secondary"></span></h2>
+            <p class="lead">
+            <ul class="text-light">
+                <li><b> Location:</b> It would orbit within the habitable zone of its host star, where conditions are
+                    right for
+                    liquid water to exists on its surface.</li>
+                <li><b> Atmosphere:</b> A stable and breathable atmosphere with the right mix of gases, including oxygen
+                    and
+                    nitrogen, similar to Earth's atmosphere.
+                </li>
+                <li><b> Climate: </b>The climate would be relatively stable, with moderate temperatures, suitable for
+                    liquid
+                    water to exist. It would have seasons, but not extreme ones.</li>
+                <li><b> Surface: </b>A variety of landscapes, including oceans, lakes, rivers, mountains and diverse
+                    ecosystems to
+                    support a
+                    wide range of life forms.</li>
+                <a id="readMore">Read more...</a>
+                <div id="moreInfo">
+                    <li><b> Geology:</b> Active geology with plate tectonics, and a magnetic field to protect against
+                        harmful cosmic radiation. It consist of moist soil composed of silica and metal ores.</li>
+                    <li><b>Biosphere:</b> A well-developed biosphere with a variety of species, including flora and
+                        fauna, to support complex ecosystems.
+                        In hydrospera plants are in ethereal shades of purple. <br> And organisms such as Algae which
+                        acts as energy source and helps in controlling geothermal process and microbial growth.</li>
+                </div>
+            </ul>
+            </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="resources/WhatsApp Image 2023-10-08 at 12.47.15 PM.jpeg" width="400px" autoplay loop
+                muted></video>
+        </div>
+    </div>
+    <hr class="featurette-divider container text-light">
+
+    <div class="row featurette container my-5" id="matter">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1 text-light">Presence of water</h2><span
+                class="text-body-secondary"></span>
+            </h2>
+            <p class="lead text-light">Planetary moisture content plays a vital role when you look at the graph between
+                soil and moisture content, it can be noticed that at 0% moisture content the planet is mudish and has a
+                dessert type soil which does not support the life of plants. Hydrospera is just at most accurate region
+                of 50% water and 50% land which leads to more landmass and intern leading to more population.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="resources/WhatsApp Image 2023-10-07 at 11.00.07 PM.jpeg" width="400px" autoplay loop muted alt="">
+        </div>
+    </div>
+    <div class="row featurette container my-5" id="matter">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1 text-light">Molten metallic core<span
+                    class="text-body-secondary"></span></h2>
+            <p class="lead text-light">A molten metal core, like the one found in earth, plays a crucial role in protecting the planet from harmful radiation from te star. Earth's outer core mainly consist of molten iron and nickel, which generates a powerful magnetic field through a process known as geodynamo. this magnetic field extends into space and forms the earth's magnetosphere, a protective shield that reflects and traps charged particles from solar storm which is a stream of high energy particles created by the star.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="https://static.scientificamerican.com/sciam/cache/file/3D3EBC0B-26CB-41F5-951EE45D02F52BE2.jpg"
+                width="400px" alt="">
+        </div>
+    </div>
+    <div class="footer text-center text-light bg-dark p-1">
+        <p>Reference : <a target="_blank" href="https://exoplanets.nasa.gov/">https://exoplanets.nasa.gov/</a></p>
+        <p> <a target="_blank"
+                href="https://www.youtube.com/@WhatIfScienceShow">https://www.youtube.com/@WhatIfScienceShow</a></p>
+        <p> <a target="_blank"
+                href="https://www.giss.nasa.gov/projects/astrobio/">https://www.giss.nasa.gov/projects/astrobio/</a></p>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#readMore").click(function () {
+                $("#moreInfo").slideToggle()
+                $("#readMore").hide()
+            })
+        })
+    </script>
+
+
+</body>
+
+</html>
