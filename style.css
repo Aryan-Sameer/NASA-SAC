@@ -127,12 +127,7 @@ body{
 .table{
     width: fit-content;
 }
-/* .header{
-    background-image: url('resources/WhatsApp\ Image\ 2023-10-08\ at\ 11.05.18\ AM.jpeg');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 #homebtn{
     position: absolute;
 }
